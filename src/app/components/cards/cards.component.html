@@ -1,0 +1,14 @@
+<div class="container-flex">
+    <div class="row">
+        <div class="row-header-title text-white">
+            <h1>
+                TOP 20</h1>
+        </div>
+        <div class="card" *ngFor="let i of movies">
+            <div class="card-body">
+                <a href="#">
+                    <img src="https://image.tmdb.org/t/p/w300/{{ i.poster_path }}" class="card-img-top" style="border-radius: 20px"/>
+                </a>
+            </div>
+        </div>
+    </div>

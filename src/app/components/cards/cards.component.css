@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    min-width: 200px;
+}
+
+.card{
+    margin-top: 100px;
+    margin-left: 15px;
+    max-width: 18rem;
+    background-color: #1b1b1b;
+}
+
+.container-flex{
+    margin-top: 100px;
+}
+
+.row-header-title{
+    margin-top: 50px;
+    margin-left: 35px;
+}
