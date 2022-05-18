@@ -18,4 +18,17 @@ export class MoviesService {
   getMoviesMostPopularService(): Observable<MovieModel[]> {
     return this.http.get<MovieModel[]>(`${BASEAPI.mostPopular}`)
   }
+
+  getUpcomingService(): Observable<MovieModel[]>{
+    return this.http.get<MovieModel[]>(`${BASEAPI.upcoming}`)
+  }
+
+  getTopRatedMoviesServices(): Observable<MovieModel[]>{
+    return this.http.get<MovieModel[]>(`${BASEAPI.topRated}`)
+  }
+
+  getGenreMoviesServices(): Observable<any>{
+    return this.http.get(`${BASEAPI.genre}`)
+  }
+
 }

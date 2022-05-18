@@ -4,17 +4,21 @@ div{
 }
 
 .card{
-    margin-top: 100px;
+    margin-top: 75px;
     margin-left: 15px;
     max-width: 18rem;
     background-color: #1b1b1b;
 }
 
-.container-flex{
-    margin-top: 100px;
+
+.card-body :hover{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -5px;
+    transition-delay: 0.2s;
 }
 
-.row-header-title{
-    margin-top: 50px;
-    margin-left: 35px;
+.container{
+    margin: 0px;
+    padding: 0px;
 }
